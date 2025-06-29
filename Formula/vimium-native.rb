@@ -1,8 +1,8 @@
 class VimiumNative < Formula
   desc "Vimium on your MacOS"
   homepage "https://github.com/abilkhan024/vimium-native"
-  url "https://github.com/abilkhan024/vimium-native/releases/download/v1.3/vimium-native-build.tar.gz"
-  sha256 "16b97d45092ae396037c8bcd2ac090d91d4a94796b8819b179faf4d1014aed22"
+  url "https://github.com/abilkhan024/vimium-native/releases/download/v1.4/vimium-native-build.tar.gz"
+  sha256 "dc491469fe2ba7208aa493ceef3e788a6b10298b27f92790fc2e324136ce06b1"
 
   def install
     bin.install "VimiumNative" => "vimium-native"
